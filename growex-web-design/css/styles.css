@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(67, 230, 67) 3px solid;
+}
+header .highlight, header .current a{
+    color: rgb(67, 230, 67);
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header a:hover{
+    color: rgb(67, 230, 67);
+    transition: 0.5s ease;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 15px;
+}
+
+#showcase{
+    min-height: 400px;
+    background:url('../img/showcase.png') no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}   
+#showcase p{
+    font-size: 20px;
+}
+#showcase .highlight{
+    color: rgb(67, 230, 67);
+    font-weight: bold;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 20px;
+}
+#newsletter input[type='email']{
+    padding: 4px;
+    height: 28px;
+    width: 250px;
+    border:0;
+}
+.button_1{
+    height: 38px;
+    background:rgb(67, 230, 67);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    border:0;
+    
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    width: 130px;
+}
+
+footer{
+    padding:20px;
+    margin-top: 15px;
+    color: #ffffff;
+    background-color: #35424a;
+    text-align: center;
+}
+footer .highlight{
+    color: rgb(67, 230, 67);
+    font-weight: bold;
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;    
+}
+article.main-col{
+    float: left;
+    width: 65%;
+}
+.dark{
+    padding: 15px;
+    background-color: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+aside .dark .highlight{
+    color: rgb(67, 230, 67);
+    font-weight: bold;
+}
