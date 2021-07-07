@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Growex Web Design</title>
+    <title>Growex Web Design | Services</title>
 </head>
 <body>
     <header>
@@ -15,19 +15,14 @@
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li class="current"><a href="services.html">Services</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="showcase">
-        <div class="container">
-            <h1>Affordable Professional <span class="highlight">Web Design</span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi adipisci, suscipit cum alias rem tempora, voluptatum pariatur deleniti ut dicta, veritatis temporibus exercitationem? Placeat temporibus blanditiis perspiciatis nesciunt assumenda repudiandae?</p>
-        </div>
-    </section>
+    
     <section id="newsletter">
         <div class="container">
             <h1>Subscribe to our newsletter</h1>
@@ -37,23 +32,53 @@
             </form>
         </div>
     </section>
-    <section id="boxes">
+    <section id="main">
         <div class="container">
-            <div class="box">
-                <img src="./img/html.png" alt="html_logo">
-                <h3>HTML5 Markup</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi dignissimos provident quaerat a placeat doloremque consectetur velit! </p>
-            </div>
-            <div class="box">
-                <img src="./img/css.png" alt="css_logo">
-                <h3>CSS styling</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi dignissimos provident quaerat a placeat doloremque consectetur velit! </p>
-            </div>
-            <div class="box">
-                <img src="./img/graphic.jpg" alt="css_logo">
-                <h3>Graphic Designing</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sequi dignissimos provident quaerat a placeat doloremque consectetur velit!</p>
-            </div>
+            <article class="main-col">
+                <h1 class="page-title">Services</h1>
+                <ul id="services">
+                    <li>
+                        <h3 class="highlight">React.Js Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsam, nostrum expedita, iure nesciunt praesentium earum voluptate natus quod repellat recusandae odit eos iusto tempora cumque vero eum molestias necessitatibus.</p>
+                        <p>Pricing: RS 500,000 - RS 15,00,000</p>
+                    </li>
+                    <li>
+                        <h3 class="highlight">HTML CSS Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsam, nostrum expedita, iure nesciunt praesentium earum voluptate natus quod repellat recusandae odit eos iusto tempora cumque vero eum molestias necessitatibus.</p>
+                        <p>Pricing: RS 50,000 - RS 500,000</p>
+                    </li>
+                    <li>
+                        <h3 class="highlight">HTML CSS JavaScript Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsam, nostrum expedita, iure nesciunt praesentium earum voluptate natus quod repellat recusandae odit eos iusto tempora cumque vero eum molestias necessitatibus.</p>
+                        <p>Pricing: RS 100 000 - RS 10,00,000</p>
+                    </li>
+                    <li>
+                        <h3>Website Maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ipsam, nostrum expedita, iure nesciunt praesentium earum voluptate natus quod repellat recusandae odit eos iusto tempora cumque vero eum molestias necessitatibus.</p>
+                        <p>Pricing: RS 50,000 - RS 400,000(per month)</p>
+                    </li>
+                </ul>
+            </article>
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3 class="highlight">Get A Quote</h3>
+                    <form class="quote">
+                        <div>
+                            <label for="name">Name</label><br>
+                            <input type="text" name="email" placeholder="Name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label><br>
+                            <input type="email" name="email" placeholder="Email Address">
+                        </div>
+                        <div>
+                            <label for="message">Message</label><br>
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+                </div>
+            </aside>
         </div>
     </section>
     <footer>
